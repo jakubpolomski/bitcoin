@@ -5,6 +5,20 @@ body {
     color: #fff;
     font-family: 'Dosis', sans-serif;
     text-align: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+figure {
+    margin: 0;
+    padding-top: 30px;
 }
 
 figure img {

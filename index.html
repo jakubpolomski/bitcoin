@@ -3,23 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurs Bitcoin</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Dosis:600,800&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:600,800&amp;subset=latin-ext" rel="stylesheet">
 </head>
 
 <body>
-   <figure><img src="img/bitcoin.png" alt="bitcoin"></figure>
+    <figure><img src="img/bitcoin.png" alt="bitcoin"></figure>
     <h2>Aktualny kurs Bitcoin do PLN</h2>
 
     <h3>Kupno</h3>
-    <span id="buy" class="exchange-value"></span> <i class="fa fa-minus-square" aria-hidden="true" id="buy-arrow"></i>
+    <div class="container"><span id="buy" class="exchange-value"></span>
+        <div class="box"><i class="fa fa-minus-square" aria-hidden="true" id="buy-arrow"></i></div>
+    </div>
 
     <h3>Sprzedaż</h3>
-    <span id="sell" class="exchange-value"></span> <i class="fa fa-minus-square" aria-hidden="true" id="sell-arrow"></i>
+    <div class="container"><span id="sell" class="exchange-value"></span>
+        <div class="box"><i class="fa fa-minus-square" aria-hidden="true" id="sell-arrow"></i></div>
+    </div>
 
 
     <div class="control-buttons">
@@ -31,7 +37,7 @@
     </div>
 
     <h4>Odświerzanie kursu co <span id="refresh-frequency">5 sekund</span></h4>
-    
+
     <div id="time"></div>
 
     <script src="jquery.js"></script>

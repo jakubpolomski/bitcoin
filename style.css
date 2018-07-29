@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4d4d4d;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+figure img {
+    max-width: 200px;
+}
+
+.control-button {
+    background-color: #f7931a;
+    padding: 10px 15px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+    outline: 0;
+}

@@ -39,4 +39,14 @@ figure img {
     outline: 0;
     margin: 5px;
     font-weight: 600px;
+    transition: all 0.4s;
+}
+
+.control-button:hover {
+    background-color: #fff;
+    color: #f7931a;
+}
+
+#refresh-frequency {
+    color: #f7931a;
 }
